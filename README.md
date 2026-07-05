@@ -1,3 +1,10 @@
+> [!warning]
+> This port is based on an older version of esp_littlefs 1.16.4, which was selected as most sensible as it could support ESP8266 with minimal changes. This means it can hide bugs or vulnerabilities that were patched in the upstream long ago
+>
+> If you don't care, you can just add it as a component for ESP8266_RTOS_SDK and use in your legacy project. Only default flag combination was tested though, so it can very easily break if you change the config. In that case feel free to open an issue, but I give absolutely no guarantees about whether it would be fixed or not.
+
+---
+
 LittleFS for ESP-IDF.
 
 # What is LittleFS?

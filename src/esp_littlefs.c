@@ -3,6 +3,9 @@
  * @brief Maps LittleFS <-> ESP_VFS
  * @author Brian Pugh
  */
+#ifndef CONFIG_VFS_SUPPORT_DIR 
+#define CONFIG_VFS_SUPPORT_DIR CONFIG_IDF_TARGET_ESP8266
+#endif
 
 #ifndef LOG_LOCAL_LEVEL
 #define LOG_LOCAL_LEVEL CONFIG_LOG_DEFAULT_LEVEL
